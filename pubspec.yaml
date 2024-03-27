@@ -1,0 +1,44 @@
+name: github_search
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  provider: ^6.1.2
+  google_fonts: ^6.2.0
+  date_format: ^2.0.7
+  http: ^1.2.0
+  hive: ^2.1.0
+  hive_flutter: ^1.1.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.8
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - lib/assets/
+
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: lib/assets/fonts/Raleway-Regular.ttf
+        - asset: lib/assets/fonts/Raleway-Italic.ttf
+          style: italic
